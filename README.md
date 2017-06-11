@@ -6,6 +6,7 @@ Please note that this script is NOT a product of Enphase Energy. If it doesn't w
 Events are saved with the name:  envoy-eventlog-yyyymmdd-hhmmss.csv (where yyyy is the four-digit year, mm is the two-digit month, and dd is the two-digit day, followed by the hhmmss timestamp).
 
 ![Example of CSV Logfile loaded into OpenOffice Calc](eventlog-screenshot.png)
+
 I chose this naming convention to allow sorting of the event log files.  The .csv files open into nicely formatted columns with named headings in Libre Office Calc or Microsoft Excel.
 
 The script requires one argument when run, the IP address of the Envoy. In the following examples an address of 192.168.1.100 for the Envoy is used.
